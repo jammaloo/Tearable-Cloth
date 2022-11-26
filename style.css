@@ -25,11 +25,13 @@ span, div {
 
 div {
   bottom: 60px;
-  a {
-    text-decoration: none;
-    color: #2266bb;
-    &:first-child {
-      margin-right: 20px;
-    }
-  }
+}
+
+a {
+  text-decoration: none;
+  color: #2266bb;
+}
+
+a:first-child {
+  margin-right: 20px;
 }
