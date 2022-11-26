@@ -233,3 +233,9 @@ let cloth = new Cloth()
 
   window.requestAnimFrame(update)
 })(0)
+
+document.getElementById('reset').addEventListener('click', (e) => {
+  cloth = new Cloth()
+  e.preventDefault();
+  return false;
+});
